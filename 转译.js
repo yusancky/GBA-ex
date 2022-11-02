@@ -133,7 +133,7 @@ const reader = async (_) => {
     yuicompress: false,
   });
   writeFileSync("dist/样式.css", cssText.css, "utf8");
-  copyFileSync("html/字体.woff", "dist/字体.woff");
+  copyFileSync("html/LXGWWenKai-Regular.woff", "dist/字体.woff");
 };
 
 reader();

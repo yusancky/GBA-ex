@@ -68,42 +68,20 @@ const getTextFromHTMLFile = (filename) => {
   return texts.join("");
 };
 
-const defaultText = `1234567890:`;
 const mintext =
-  defaultText +
+  `1234567890:` +
   getTextFromHTMLFile("html/index.html") +
   getTextFromHTMLFile("GBA-ex.svg");
-var Fontmin = require('fontmin');
 
-var fontmin = new Fontmin().src('LXGWWenKai-Regular.ttf').dest('html').use(Fontmin.ttf2woff({deflate: true}));
+var Fontmin = require("fontmin");
+
+var fontmin = new Fontmin()
+  .src("LXGWWenKai-Regular.ttf")
+  .dest("html")
+  .use(Fontmin.ttf2woff({ deflate: true }));
 
 fontmin.run(function (err, files) {
-    if (err) {
-        throw err;
-    }
-
-    // console.log(files[0]);
-    // writeFileSync("html/字体.woff", files[0], "binary");
+  if (err) {
+    throw err;
+  }
 });
-var fs = require('fs');
-
-fs.rename('html/LXGWWenKai-Regular.woff', 'html/字体.woff', function (err) {
-  // if (err) throw err;
-  console.log('File Renamed.');
-});
-
-/*
-const fontURL = generateFontURL(`JiaLiDaYuanJF`, text);
-
-const axios = require("axios");
-
-const downFontFile = async (_) => {
-  let r = await axios.get(fontURL, {
-    responseType: "arraybuffer",
-  });
-  console.log(r.data);
-  writeFileSync("html/字体.woff", r.data, "binary");
-};
-
-downFontFile();
-*/

@@ -25,7 +25,6 @@ const replaceSVG = (text) => {
     /<rect y="0" class=".+?" width="2000" height="1210"\/?>/g,
     ""
   );
-  text = text.replace(/'Tensentype-JiaLiDaYuanJF'/g, "字体");
 
   text = text.replace(
     /<polygon id="(.+?)" class="(.+?)" points="([^"]+)\s{0,}"\/>/g,

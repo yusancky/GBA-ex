@@ -3,7 +3,7 @@
 <style></style>
 <style>
 text{
-    font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
+    font-family: '字体',sans-serif;
     fill:#111;
     font-size:30px;
 }

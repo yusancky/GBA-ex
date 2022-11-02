@@ -44,11 +44,9 @@ const loadFont = async (fontName, fontURL, callback) => {
 function str2utf8(str) {
   return str.split("").map((s) => s.charCodeAt(0));
 }
-function utf82str(str) {
-  return String.fromCharCode.apply(null, Array.from(str));
-}
 
 const { readFileSync, writeFileSync } = require("fs");
+
 const getTextFromHTMLFile = (filename) => {
   let html = readFileSync(filename, "utf8");
   const texts = [];
@@ -76,7 +74,7 @@ const mintext =
 var Fontmin = require("fontmin");
 
 var fontmin = new Fontmin()
-  .src("LXGWWenKai-Regular.ttf")
+  .src("LXGWWenKaiGB-Regular.ttf")
   .dest("html")
   .use(Fontmin.ttf2woff({ deflate: true }));
 

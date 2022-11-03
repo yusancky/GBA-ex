@@ -1,4 +1,6 @@
 # 大湾区制霸：粤港澳大湾区制霸标记生成器
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyusancky%2FGBA-ex.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyusancky%2FGBA-ex?ref=badge_shield)
+
 
 [![](https://yusancky.github.io/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
 
@@ -37,3 +39,6 @@
 - 福建 @action-hong https://github.com/action-hong/china-ex
 - 中国 自定义等级 @kf-liu https://github.com/kf-liu/china-ex-pro
 - 日本： https://zhung.com.tw/japanex/
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyusancky%2FGBA-ex.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyusancky%2FGBA-ex?ref=badge_large)

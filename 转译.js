@@ -134,6 +134,7 @@ const reader = async (_) => {
   });
   writeFileSync("dist/样式.css", cssText.css, "utf8");
   copyFileSync("html/LXGWWenKaiGB-Regular.woff", "dist/字体.woff");
+  copyFileSync("html/favicon.ico", "dist/favicon.ico");
 };
 
 reader();

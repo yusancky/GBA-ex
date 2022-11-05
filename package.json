@@ -10,17 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/yusancky/GBA-ex.git"
   },
-  "keywords": ["GBA"],
+  "keywords": [
+    "GBA"
+  ],
   "author": "yusancky",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yusancky/GBA-ex/issues"
   },
   "files": [
-    "html/index.html",
-    "html/样式.css",
     "html/脚本.js",
-    "html/字体.woff"
+    "html/样式.css",
+    "html/字体.woff",
+    "html/favicon.ico",
+    "html/index.html"
   ],
   "homepage": "https://gba-ex.netlify.app/",
   "dependencies": {

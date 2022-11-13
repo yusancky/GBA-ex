@@ -29,8 +29,7 @@ var Fontmin = require("fontmin");
 var fontmin = new Fontmin()
   .src("LXGWWenKaiGB-Regular.ttf")
   .dest("html")
-  .use(Fontmin.glyph({ text: mintext, hinting: false }))
-  .use(Fontmin.ttf2woff({ deflate: true }));
+  .use(Fontmin.glyph({ text: mintext, hinting: false }));
 
 fontmin.run(function (err, files) {
   if (err) {

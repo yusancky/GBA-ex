@@ -1,6 +1,6 @@
 # 大湾区制霸：粤港澳大湾区制霸标记生成器
 
-[![](https://yusancky.github.io/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
+[![](https://yusancky.github.io/assets/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
 
 ## 简介
 
@@ -20,8 +20,8 @@
 
 ## 等级标准
 
-- 居住：居住一年以上
-- 短居：居住一月以上
-- 游玩：旅行过
-- 出差：去过但完全未游玩
+- 居住：居住至少 $6$ 个月
+- 短居：居住至少 $20$ 天
+- 游玩：游玩过
+- 出差：停留过但完全未游玩
 - 路过：乘车路过或乘飞机经停

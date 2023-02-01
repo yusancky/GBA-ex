@@ -134,6 +134,7 @@ const reader = async (_) => {
   });
   writeFileSync("dist/样式.css", cssText.css, "utf8");
   copyFileSync("html/LXGWWenKaiGB-Regular.ttf", "dist/字体.ttf");
+  copyFileSync("tencent7832770675287174292.txt", "dist/tencent7832770675287174292.txt");
   copyFileSync("html/favicon.ico", "dist/favicon.ico");
 };
 

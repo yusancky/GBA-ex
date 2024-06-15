@@ -30,6 +30,6 @@
     "fontmin": "1.0.1",
     "html-minifier": "4.0.0",
     "less": "4.2.0",
-    "uglify-js": "3.17.4"
+    "uglify-js": "3.18.0"
   }
 }

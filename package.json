@@ -27,7 +27,7 @@
   ],
   "homepage": "https://gba-ex.netlify.app/",
   "dependencies": {
-    "fontmin": "1.1.0",
+    "fontmin": "2.0.0",
     "html-minifier": "4.0.0",
     "less": "4.2.0",
     "uglify-js": "3.19.0"
